@@ -1,0 +1,75 @@
+
+/* Admin Navigation */
+
+.admin-nav {
+    background: #222;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .admin-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  /* Dashboard */
+  
+  .dashboard .info-boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .dashboard .info-box {
+    background: #f4f4f4;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;  
+  } 
+  
+  /* Tables */
+  
+  .table-wrap {
+    overflow-x: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Forms */
+  
+  .form-wrap {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-wrap .form-group {
+    margin-bottom: 10px; 
+  }
+  
+  .form-wrap button {
+    display: block;
+    margin-top: 20px;
+  }
